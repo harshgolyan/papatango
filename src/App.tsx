@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Image from "./components/Image";
 import ContactUs from "./components/ContactUs";
+import Engage from "./components/Engage";
 
 export default function App () {
   return (
@@ -13,6 +14,7 @@ export default function App () {
         <Hero />
         <Image />
         <ContactUs />
+        <Engage />
       </div>
     </>
   )
