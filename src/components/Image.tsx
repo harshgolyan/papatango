@@ -2,7 +2,7 @@
 
 function Image() {
   return (
-    <div className="h-screen w-full -z-10"></div>
+    <div className="h-screen bg-white w-full -z-10"></div>
   )
 }
 

@@ -34,7 +34,7 @@ function Engage() {
     };
 
     return (
-        <div className="flex flex-col gap-6 py-40 justify-center items-center max-w-screen bg-white overflow-hidden border-b border-gray-600">
+        <div className="flex flex-col gap-6 py-40 justify-center items-center max-w-screen bg-white overflow-hidden border-b border-gray-300">
             <div className="text-4xl font-parastoo">( 02 )</div>
             <div className="text-2xl font-semibold font-roboto uppercase">
                 CONCEVOIR pour engager
