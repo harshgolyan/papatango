@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-rubik {
+    font-family: 'Rubik', sans-serif;
+  }
+
+  .font-parastoo {
+    font-family: 'Parastoo', sans-serif;
+  }
+}
