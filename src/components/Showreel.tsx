@@ -18,7 +18,7 @@ function Showreel() {
     return (
         <div
             ref={ref}
-            className="flex justify-center items-center h-screen bg-black text-white text-[8rem] uppercase font-thin font-parastoo gap-8 overflow-hidden"
+            className="flex flex-col lg:flex-row justify-center items-center h-screen bg-black text-white text-[8rem] uppercase font-thin font-parastoo gap-8 overflow-hidden"
         >
             {animation && !bracketsDone ? (
                 <>
@@ -31,7 +31,7 @@ function Showreel() {
                         (
                     </motion.span>
 
-                    <div className="h-[45rem] w-[30rem]" /> 
+                    <div className="lg:h-[45rem] lg:w-[30rem] h-[40rem] w-[25rem]" /> 
 
                     <motion.span
                         initial={{ x: 0, opacity: 1 }}

@@ -104,7 +104,7 @@ function CTACard({
 }) {
     return (
         <>
-            <div className="flex justify-between items-center px-20 py-10 sticky w-full top-16 left-0 bg-white border-b border-gray-300">
+            <div className="flex flex-col sm:flex-row justify-between items-center px-20 py-10 sticky w-full top-16 left-0 bg-white border-b border-gray-300">
                 <div className="flex flex-col gap-10 max-w-xl">
                     <div className="text-5xl uppercase font-semibold">
                         {heading}
@@ -117,7 +117,7 @@ function CTACard({
                     </div>
                 </div>
                 <div>
-                    <img src={image} alt="" />
+                    <img src={image} />
                 </div>
             </div>
         </>

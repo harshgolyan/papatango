@@ -16,9 +16,9 @@ function Hero() {
   return (
     <div
       ref={containerRef}
-      className="flex justify-center items-center h-screen w-full bg-black text-white relative"
+      className="flex sm:justify-center justify-start items-center h-screen w-full bg-black text-white relative"
     >
-      <div className="uppercase text-9xl text-center max-w-5xl">
+      <div className="uppercase sm:text-9xl text-4xl text-center max-w-5xl">
         <div className="font-parastoo font-extralight">Emotion culture</div>
         <div className="font-rubik font-bold">& stratégie créative</div>
       </div>

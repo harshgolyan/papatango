@@ -5,7 +5,7 @@ function Footer() {
     };
     return (
         <>
-            <div className="flex flex-col gap-20 bg-[#C9CFD1] px-20 py-10">
+            <div className="flex flex-col gap-20 bg-[#C9CFD1] sm:px-20 px-5 py-10">
                 <div className="flex justify-between items-start">
                     <div className="flex flex-col gap-1">
                         <div className="font-bold text-lg">Team</div>
@@ -20,22 +20,22 @@ function Footer() {
                     </div>
                 </div>
                 <div className="flex flex-col gap-4 pb-32">
-                    <div className="flex justify-between items-center ">
-                        <div>
+                    <div className="flex flex-col md:flex-row justify-between items-center ">
+                        <div className="text-center sm:text-start">
                             <div className="font-semibold text-lg">Paris</div>
                             <div>128 rue du Faubourg</div>
                             <div>Poissonnière75010</div>
                             <div className="font-semibold text-lg">+33 (0)687364316</div>
                         </div>
-                        <div className="flex-1 flex justify-center items-start text-[22rem] leading-[16rem] font-parastoo font-extralight uppercase">Hello</div>
-                        <div>
+                        <div className="flex-1 flex justify-center items-start md:text-[22rem] text-[10rem] leading-[16rem] font-parastoo font-extralight uppercase">Hello</div>
+                         <div className="text-center sm:text-start">
                             <div className="font-semibold text-lg">Geneva</div>
                             <div>Chemin de Riantbosson</div>
                             <div>19/1217 Meyrin</div>
                             <div className="font-semibold text-lg">+41 (0)782505807</div>
                         </div>
                     </div>
-                    <div className="flex flex-1 justify-center text-[21rem] font-extralight uppercase leading-[10rem] font-parastoo">papatango</div>
+                    <div className="flex flex-1 justify-center md:text-[21rem] text-[6rem] font-extralight uppercase leading-[10rem] font-parastoo">papatango</div>
                 </div>
             </div>
         </>
